@@ -1,6 +1,6 @@
-appId: com.antigravity.terminal-cobranza
-productName: Terminal de Cobranza
-copyright: Copyright © 2026 ANTIGRAVITY
+appId: com.uphone.crm-flujo-uphone
+productName: CRM Flujo Uphone
+copyright: Copyright © 2026 UPHONE
 
 compression: store
 
@@ -30,7 +30,7 @@ nsis:
   unicode: true
   runAfterFinish: true
   createDesktopShortcut: always
-  shortcutName: "Terminal UPHONE"
+  shortcutName: "CRM Flujo Uphone"
   include: installer-hooks.nsi
 
 publish: null
