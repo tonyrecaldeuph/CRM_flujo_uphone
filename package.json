@@ -1,7 +1,7 @@
 {
-  "name": "terminal-cobranza",
-  "version": "2.0.0",
-  "description": "Terminal de Cobranza — Plataforma Asesor / Supervisor",
+  "name": "crm-flujo-uphone",
+  "version": "3.0.0",
+  "description": "CRM Flujo Uphone — Plataforma de cobranza (Asesor / Supervisor / Admin)",
   "main": "out/main/index.js",
   "author": "Alexis Pillajo",
   "license": "ISC",
