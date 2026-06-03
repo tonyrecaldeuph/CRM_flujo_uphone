@@ -1,4 +1,4 @@
-# Modelo de Datos — Terminal de Cobranza
+# Modelo de Datos — CRM Flujo Uphone
 
 > SQLite (better-sqlite3). DDL en `src/main/database/schema.sql`; migraciones idempotentes
 > versionadas (M-001…M-038) en `src/main/database/db.js`, ejecutadas al iniciar. Versión 3.0.

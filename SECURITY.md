@@ -1,10 +1,10 @@
-# Política de Seguridad — Terminal de Cobranza
+# Política de Seguridad — CRM Flujo Uphone
 
 ## 🛡️ Reporte de Vulnerabilidades
 
 Si encuentras una vulnerabilidad de seguridad, por favor **NO** crees un issue público.
 
-Envía un correo a: **<tonyrecaldeuph@gmail.com>**
+Envía un correo a: **<alexispillajouph@gmail.com>**
 
 ## 📦 Versiones Soportadas
 

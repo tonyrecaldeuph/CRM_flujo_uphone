@@ -3,7 +3,7 @@
 - **Estado:** Propuesto (a cargo de la empresa de desarrollo del holding)
 - **Fecha:** 2026-06-03
 - **Decisores:** P.O., Empresa de desarrollo, Holding
-- **Relacionado:** ADR-004 (PostgreSQL), [`docs/DOMAIN-RULES.md`](../../docs/DOMAIN-RULES.md), [`docs/API-REFERENCE.md`](../../docs/API-REFERENCE.md)
+- **Relacionado:** ADR-001 (PostgreSQL), [`docs/DOMAIN-RULES.md`](../../docs/DOMAIN-RULES.md), [`docs/API-REFERENCE.md`](../../docs/API-REFERENCE.md)
 
 ---
 

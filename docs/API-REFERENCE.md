@@ -1,4 +1,4 @@
-# API Reference — Terminal de Cobranza
+# API Reference — CRM Flujo Uphone
 
 > Backend Express + WebSocket en el puerto **3001** (modo remoto/VM). Todas las rutas REST
 > (excepto `/api/health` y `/api/auth/login`) requieren header `Authorization: Bearer <JWT>`.

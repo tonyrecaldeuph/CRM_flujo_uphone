@@ -1,4 +1,4 @@
-# Arquitectura — Terminal de Cobranza
+# Arquitectura — CRM Flujo Uphone
 
 > Documento de referencia para mantenimiento del desarrollo original y para el equipo que migrará a webapp.
 > Versión 3.0.

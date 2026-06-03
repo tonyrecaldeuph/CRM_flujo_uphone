@@ -1,4 +1,4 @@
-# 🧪 Plan de Pruebas Multi-PC — UPHONE Terminal de Cobranza v2.0
+# 🧪 Plan de Pruebas Multi-PC — UPHONE CRM Flujo Uphone v2.0
 
 ## Prerrequisitos
 
@@ -24,7 +24,7 @@
 ### 0.2 — Firewall de Windows (PC 1)
 ```
 1. Panel de Control → Windows Defender Firewall → Permitir aplicación
-2. Buscar "Terminal de Cobranza" y marcar "Privada"
+2. Buscar "CRM Flujo Uphone" y marcar "Privada"
 3. Si no aparece: Agregar regla → Puerto 3001 TCP → Permitir conexión doméstica
 ```
 

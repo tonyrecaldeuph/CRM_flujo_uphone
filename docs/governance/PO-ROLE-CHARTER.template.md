@@ -1,12 +1,12 @@
-# Acta de Rol — Product Owner (PLANTILLA)
+# Acta de Rol — Product Owner 
 
 > Completar y formalizar con RRHH/Holding. Define autoridad y límites del P.O.
 
 ## 1. Identificación
-- **Nombre:** _[completar]_
-- **Proyecto/Producto:** Terminal de Cobranza (y su migración a webapp)
+- **Nombre:** _[Alexis Pillajo]_
+- **Proyecto/Producto:** CRM Flujo Uphone (y su migración a webapp)
 - **Reporta a:** _[holding / sponsor]_
-- **Vigencia:** _[desde – hasta]_
+- **Vigencia:** _[03/06/2026 – hasta]_ Pendiente definir
 
 ## 2. Propósito del rol
 Maximizar el valor del producto siendo el puente entre el negocio (holding/operación de cobranza) y la empresa de desarrollo, custodiando las reglas de negocio y la calidad de la entrega.
@@ -29,7 +29,7 @@ Maximizar el valor del producto siendo el puente entre el negocio (holding/opera
 - Decisiones legales/contractuales/IP → área legal del holding.
 
 ## 6. Interfaces (ver RACI)
-P.O. ↔ Empresa de desarrollo ↔ Holding/Sponsor ↔ Operación de cobranza.
+P.O. ↔ REFACTOR Empresa de desarrollo ↔ Holding/Sponsor ↔ Operación de cobranza.
 
 ## 7. Métricas de éxito del rol
 _[p. ej. cumplimiento de hitos, calidad de aceptación, preservación de reglas de negocio]_

@@ -1,4 +1,4 @@
-# Terminal de Cobranza
+# CRM Flujo Uphone
 
 > Plataforma de cobranza telefónica con monitoreo en tiempo real (Asesor / Supervisor / Admin).
 > Aplicación de escritorio (Electron) con modo **local (LAN)** y modo **remoto (VM central)**.
@@ -33,7 +33,7 @@ Detalle completo en **[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)**.
 ## 3. Estructura
 
 ```
-terminal-cobranza/
+crm-flujo-uphone/
 ├── src/
 │   ├── main/                  ← Proceso principal Electron / backend
 │   │   ├── index.js           ← Entry point
@@ -83,7 +83,7 @@ npm run build               # build + instalador NSIS (dist/) — para PCs clien
 npm rebuild better-sqlite3  # si cambia el ABI de Node/Electron
 ```
 
-- **VM (backend):** correr `apiServer` desde `out/` bajo PM2. Procedimiento completo y rollback en **[`docs/RUNBOOK-deploy-nocturno.md`](docs/RUNBOOK-deploy-nocturno.md)**.
+- **VM (backend):** correr `apiServer` desde `out/` bajo PM2.**.
 - **PCs cliente:** distribuir el instalador NSIS de `dist/`.
 - Binarios requeridos en `resources/`:
 

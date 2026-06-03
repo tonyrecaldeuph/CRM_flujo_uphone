@@ -1,4 +1,4 @@
-# Reglas de Negocio — Terminal de Cobranza
+# Reglas de Negocio — CRM Flujo Uphone
 
 > **Activo crítico del proyecto.** Estas reglas son el *qué* del sistema y **deben preservarse**
 > en cualquier reescritura (p. ej. la migración a webapp), independientemente de la tecnología.
