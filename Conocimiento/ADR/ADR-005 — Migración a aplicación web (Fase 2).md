@@ -1,4 +1,4 @@
-# ADR-005 — Migración a aplicación web (Fase 2)
+# ADR-002 — Migración a aplicación web (Fase 2)
 
 - **Estado:** Propuesto (a cargo de la empresa de desarrollo del holding)
 - **Fecha:** 2026-06-03
