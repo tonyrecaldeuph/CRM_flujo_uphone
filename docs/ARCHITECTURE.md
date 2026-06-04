@@ -79,7 +79,7 @@ Sucursal/Equipo (×7)            Azure
 └────────────────┘              └─────────────────────────────┘
 ```
 
-Topología **estrella**: los clientes solo hablan con el backend; la BD nunca se expone. Despliegue y rollback: [`RUNBOOK-deploy-nocturno.md`](RUNBOOK-deploy-nocturno.md).
+Topología **estrella**: los clientes solo hablan con el backend; la BD nunca se expone.
 
 ## 8. Decisiones y limitaciones conocidas
 
