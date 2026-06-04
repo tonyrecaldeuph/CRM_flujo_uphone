@@ -8,6 +8,25 @@
 | C3 | URL del túnel inestable | Abierto | cloudflared *quick tunnel* rota la URL en cada reinicio. Recomendado: IP pública estática Azure (~$3-4/mes) o named tunnel. |
 | SEC-1 | SQLite sin cifrado en reposo | Abierto (ADR pendiente) | El cifrado a nivel app (SQLCipher) solo protege exfiltración de archivo/backup; contra acceso a la VM, lo que protege es control de acceso + clave en Key Vault. |
 | SEC-2 | Rotación de `JWT_SECRET` | Recomendado | `.env` nunca estuvo en historial; rotar periódicamente igualmente. |
+| SEC-3 | Electron 29 con advisories HIGH | Abierto | `npm audit` reporta múltiples HIGH en Electron <=39.8.4 (ASAR Integrity Bypass, varios use-after-free, registry key injection en Windows). Mitigación real = **upgrade de Electron** (major, breaking → requiere QA de la empresa dev). Hace fallar el job de CI (`npm audit --audit-level=high`, `continue-on-error: false`). |
+
+## CI / Integración continua
+| ID | Tema | Estado | Notas |
+|----|------|--------|-------|
+| CI-1 | Node 20 en CI vs `engines >=22` | ✅ corregido | `@electron/rebuild`/`node-abi` exigen Node ≥22.12; el workflow usaba Node 20 → EBADENGINE y fallo de `npm ci` en PRs de deps. Workflow actualizado a Node 22. |
+| CI-2 | Gate `npm audit` rojo por SEC-3 | Abierto (decisión PO) | Mientras Electron no se actualice, el job queda rojo. Opciones: (a) actualizar Electron; (b) bajar gate a `--audit-level=critical`; (c) `continue-on-error: true` documentando el riesgo. **No alterado** unilateralmente por ser sensible a seguridad. |
+
+## Actualizaciones de dependencias (Dependabot) — pendientes al handoff
+| PR | Paquete | Salto | Acción recomendada |
+|----|---------|-------|--------------------|
+| #1 | react group | minor | seguro; mergear tras CI verde |
+| #4 | ws 8.20→8.21 | patch | seguro; mergear tras CI verde |
+| #5 | @electron/rebuild 4.0.3→4.0.4 | patch | seguro; mergear tras CI verde |
+| #10 | vitest 4.1.7→4.1.8 | patch | seguro; mergear tras CI verde |
+| #7 | better-sqlite3 12.8→12.10 | minor (nativo) | mergear + `npm rebuild better-sqlite3` |
+| #3 | express 4.22→**5.2** | **MAJOR** | breaking; QA de la empresa dev (cambios de API/routing) |
+| #6 | vite 5.4→**8.0** | **MAJOR** | breaking; QA (config/plugins) |
+| #8 | @vitejs/plugin-react 4.7→**6.0** | **MAJOR** | breaking; QA junto con vite |
 
 ## Escalabilidad
 | ID | Tema | Estado | Notas |
