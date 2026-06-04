@@ -1,4 +1,4 @@
-# ADR-004 — Migración a PostgreSQL para escalado horizontal (T-003)
+# ADR-001 — Migración a PostgreSQL para escalado horizontal (T-003)
 
 - **Estado:** Propuesto (Fase 2 — prerrequisito de elasticidad)
 - **Fecha:** 2026-06-03

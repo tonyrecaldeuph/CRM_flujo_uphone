@@ -108,9 +108,8 @@ Las pruebas de queries corren contra una BD SQLite real (ver `tests/helpers/real
 | [`docs/DOMAIN-RULES.md`](docs/DOMAIN-RULES.md) | Reglas de negocio (tipificaciones, métricas, compromisos, no-doble-conteo, aislamiento) |
 | [`docs/API-REFERENCE.md`](docs/API-REFERENCE.md) | Endpoints REST + WebSocket |
 | [`docs/DATA-MODEL.md`](docs/DATA-MODEL.md) | Esquema y migraciones |
-| [`docs/RUNBOOK-deploy-nocturno.md`](docs/RUNBOOK-deploy-nocturno.md) | Procedimiento de despliegue + rollback |
+| [`docs/governance/CLAUSULA-IP-CONFIDENCIALIDAD.template.md`](docs/governance/CLAUSULA-IP-CONFIDENCIALIDAD.template.md) | Cláusula IP + confidencialidad de reglas de negocio (anexo SOW) |
 | [`SECURITY.md`](SECURITY.md) | Política de seguridad |
-| [`CHANGELOG.md`](CHANGELOG.md) | Historial de versiones |
 
 ## 10. Compatibilidad INFINIX/MediaTek
 

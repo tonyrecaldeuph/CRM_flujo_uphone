@@ -18,7 +18,7 @@ El holding asigna el proyecto a una empresa de desarrollo que planea **migrar la
 1. La **documentación de este repositorio es el contrato funcional** de la migración. En particular, [`DOMAIN-RULES.md`](../../docs/DOMAIN-RULES.md) (reglas de negocio) y [`API-REFERENCE.md`](../../docs/API-REFERENCE.md) deben preservarse semánticamente.
 2. Toda **desviación** respecto a las reglas de negocio se aprueba por el P.O. y se registra como **nuevo ADR**.
 3. La telefonía/ADB se trata como **decisión aparte** (puente local, WebRTC/SIP, o integración con central) — no se asume resuelta por el navegador.
-4. La webapp debería construirse sobre la capa de datos de **ADR-004 (PostgreSQL)** para nacer escalable.
+4. La webapp debería construirse sobre la capa de datos de **ADR-001 (PostgreSQL)** para nacer escalable.
 
 ## Consecuencias
 
