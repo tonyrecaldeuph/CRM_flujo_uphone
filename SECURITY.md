@@ -40,6 +40,3 @@ Todas las dependencias usan licencias permisivas compatibles con software propie
 
 No hay dependencias GPL, AGPL ni SSPL. El proyecto es apto para distribución comercial sin restricciones de licencia.
 
-## 📋 Reportes de Seguridad
-
-Los hallazgos de seguridad se documentan en el vault del proyecto y se priorizan en el roadmap.
